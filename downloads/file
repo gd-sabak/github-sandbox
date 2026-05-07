@@ -329,7 +329,7 @@
                             slot = googletag.defineSlot(ad.tracking_id, ad.sizes, ad.code);
                             if (slot) {
                                 slot.addService(googletag.pubads())
-                                    .setTargeting('dkey_present', 'true')
+                                    .setTargeting('dkey_present', 'false')
                                     .setTargeting('buildnumber', '121967')
                                     .setTargeting('dladtemplate', '59')
                                     .setTargeting('button_delay', 'disabled');
@@ -453,7 +453,7 @@
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag("js", new Date());
-            gtag("config", "UA-829541-1", {"dimension1":"unregistered","dimension7":"legacy","dimension3":"archive","dimension4":"59","dimension5":"zip","dimension8":"\/20\/50\/100\/"});
+            gtag("config", "UA-829541-1", {"dimension1":"unregistered","dimension7":"legacy","dimension3":"archive","dimension4":"59","dimension5":"zip","dimension8":"\/50\/100\/"});
         } catch(e) {}
     </script>
     
@@ -651,7 +651,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         >
             <input type="hidden"
                    name="security"
-                   value="1778138174.c8ec38296d6222c8d365f4d96ab7d3d33db28e3909ce990e9371e0489911fd49"
+                   value="1778140059.e06e32850971a5b079616135f11042eae7c812351a734d391c0f5dd593a49094"
             >
             
             <div class="download_link" id="download_link">
@@ -660,13 +660,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <a class="input popsok"
            aria-label="Download file"
-           href="https://download2393.mediafire.com/sn4h7wzfjq0g5QXxV8k2XosRsf9fI-LsmQMLfu9Tv-8VcVtYSkiKtt061jl_LVO-VOX1bFfVsYLZl5VwgZCGqrBWrjksTMXY__WAeSNZrvFx1jIaqM8rayQdZr3vaKdeugogsQzdxItpceKg2Zz8WcXP3UpahEnEWhiTp49sVhcdR3I/0jf76xpn91bd0hy/Dewier%5C%27s+Pack+Folder.zip"           id="downloadButton"
+           href="https://download2393.mediafire.com/e4usx3jqc1egP9wPiRvHxaqd04y0GX8lh0dQErFolpwyTfMwvSNlpw1RpuX78i3OyeWmznqdFWbW0Jrn5prLpK3EL-Kh2txR8V4fvhx42R-9SKeXeStMSYMdNWRi5bX8QShsE-PGUdIZU37yQc5WO8QeYqTk5z8vJH4WUz3VjfHX/0jf76xpn91bd0hy/Dewier%5C%27s+Pack+Folder.zip"           id="downloadButton"
            rel="nofollow">
                 Download (1.71GB)
         </a>
 
                 <a class="starting" href="#"><span>Your download is starting...</span></a>
-    <a class="retry" href="https://www.mediafire.com/download_repair.php?qkey=0jf76xpn91bd0hy&amp;dkey=sn4h7wzfjq0&amp;template=59&amp;origin=click_button">
+    <a class="retry" href="https://www.mediafire.com/download_repair.php?qkey=0jf76xpn91bd0hy&amp;dkey=e4usx3jqc1e&amp;template=59&amp;origin=click_button">
         <span class="notranslate">Download Started. <em>Repair your download</em></span>
     </a>
     <script type="text/javascript">
@@ -720,7 +720,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                  e.preventDefault();
                  // Set deferred progress state
                  dl.className = 'download_link deferred-progress';
-                 handleDeferredDownload("https://www.mediafire.com/download_repair.php?qkey=0jf76xpn91bd0hy&dkey=sn4h7wzfjq0&template=59&origin=click_button", "https://www.mediafire.com/download_repair.php?qkey=0jf76xpn91bd0hy&dkey=sn4h7wzfjq0&template=59&origin=server_error");
+                 handleDeferredDownload("https://www.mediafire.com/download_repair.php?qkey=0jf76xpn91bd0hy&dkey=e4usx3jqc1e&template=59&origin=click_button", "https://www.mediafire.com/download_repair.php?qkey=0jf76xpn91bd0hy&dkey=e4usx3jqc1e&template=59&origin=server_error");
              };
          }
 
@@ -736,8 +736,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     
             <div class="DLMobile-shareOptions">
-                        <p>
-                A message from our advertisers will show in the previous tab.            </p>
                         <ul>
                 <li>
                     <a href="#share"
@@ -1350,7 +1348,7 @@ var isInRect = function(selector, clickEvent) { if (selector != null && clickEve
                             var iAdCount = parseInt(getCookie('ad_count')) || 0;
                             if (iAdCount < 3) {
                                 iAdCount++;
-                                document.cookie = "ad_count=" + iAdCount + ";expires=" + (new Date(1778139074000)).toGMTString() + ";path=/";
+                                document.cookie = "ad_count=" + iAdCount + ";expires=" + (new Date(1778140959000)).toGMTString() + ";path=/";
                             }
                         });
                     });
@@ -1647,7 +1645,7 @@ var isInRect = function(selector, clickEvent) { if (selector != null && clickEve
   var optFileURL = "https://www.mediafire.com/file/0jf76xpn91bd0hy/Dewier%2527s_Pack_Folder.zip/file";
   var optLoggedIn = "false" === "true";
   var optReportTurboDL = "false" === "true";
-  var optSecurityToken = "1778138174.c8ec38296d6222c8d365f4d96ab7d3d33db28e3909ce990e9371e0489911fd49";
+  var optSecurityToken = "1778140059.e06e32850971a5b079616135f11042eae7c812351a734d391c0f5dd593a49094";
   var optJsDirectLink = "false" === "true";
   var optTurboDownload = "false" === "true";
   var templateId = "59";
@@ -1999,5 +1997,5 @@ var isInRect = function(selector, clickEvent) { if (selector != null && clickEve
         <script type="text/javascript">
         window.startLazyLoad && window.startLazyLoad();  // No lazy ad positioning, fine to start lazy loader.
     </script>
-    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f7e70279e6cb083',t:'MTc3ODEzODE3NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f7e9e2cfea4ed79',t:'MTc3ODE0MDA1OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
